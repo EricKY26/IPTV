@@ -162,6 +162,7 @@ jobs:
             echo "ℹ️ 无变更，跳过提交"
           else
             git commit -m "EPG Update: $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')(CST)"
+            git pull --rebase origin main
             git push
             echo "✅ 推送成功"
           fi
