@@ -14,28 +14,28 @@
 
 | 格式 | 完整版（含地方台等） | 精简版（不含地方台等） | 直播平台（虎牙、斗鱼、B站、YY） | 其他未收入频道 |
 | :--- | :--- | :--- | :--- | :--- |
-| **TXT** | [live.txt](https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.txt) | [live_lite.txt](https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_lite.txt) | — | [others.txt](https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/others.txt) |
-| **M3U** | [live.m3u](https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u) | [live_lite.m3u](https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_lite.m3u) | [live_platforms.m3u](https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_platforms.m3u) | — |
+| **TXT** | [live.txt](https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/live.txt) | [live_lite.txt](https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/live_lite.txt) | — | [others.txt](https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/others.txt) |
+| **M3U** | [live.m3u](https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/live.m3u) | [live_lite.m3u](https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/live_lite.m3u) | [live_platforms.m3u](https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/live_platforms.m3u) | — |
 
 ### EPG 电子节目指南
 提供原始 XML 和压缩 GZ 双版本，压缩版体积更小，适合网络调用。
 
 | 格式 | 直链地址 | 核心特点 |
 | :--- | :--- | :--- |
-| **XML** | [e.xml](https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/e.xml) | 原始格式，兼容性最佳，适配所有播放器 |
-| **GZ** | [e.xml.gz](https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/e.xml.gz) | 压缩格式，体积大幅减小，传输更快 |
+| **XML** | [e.xml](https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/e.xml) | 原始格式，兼容性最佳，适配所有播放器 |
+| **GZ** | [e.xml.gz](https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/e.xml.gz) | 压缩格式，体积大幅减小，传输更快 |
 
 ### 台标 LOGO
 采用标准化命名规则，与直播源频道名一一对应，可直接在播放器中自动加载显示。
 
 **调用格式：**
 ```
-https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{频道名}.png
+https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/logo/{频道名}.png
 ```
 
 **调用示例：**
-- 央视一套 → `https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV1.png`
-- 湖南卫视 → `https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/湖南卫视.png`
+- 央视一套 → `https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/logo/CCTV1.png`
+- 湖南卫视 → `https://raw.githubusercontent.com/EricKY26/IPTV/refs/heads/main/logo/湖南卫视.png`
 
 **覆盖范围：** 央视全频道、省级卫视、主流地方频道、数字付费频道、特色网络频道等。
 
